@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+} 
+
+.header{
+    height: 570px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/raph/image/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    
+}
+
+.header img{
+    width: 150px;
+    float: left;
+    margin-left: 80px;
+}
+
+
+.header .login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-right: 80px;
+}
+
+.header h1{
+    text-align: center; 
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+
+.header p{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+    margin: 40px 30px;
+}
+
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control{
+    border: 0 !important;
+    border-radius: 30px 0 0 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+.features article{
+    align-items: center;
+    margin-left: 120px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 0px;
+    padding-bottom: 50px;
+}
+
+.field{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    display: inline-block;
+    padding-bottom: 10px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery{
+    padding: 40px ;
+    background: #efefef;
+}
+
+.gallery h1{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+
+.features h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.features{
+    padding: 60px 0;
+    display: block; 
+}
+
+.gallery img{
+    width: 100 px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.text h4{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    transform: translate(-50%,-50%);
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+.gallery h1{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.text{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+.banner{
+    height: 400px;
+    background-image: url(/raph/image/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 13%;
+}
+
+.banner article{
+    padding: 50px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+
+.Review h1{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    font-size: 32px;
+}
+
+.Review{
+    padding: 40px;
+    text-align: center;
+    background: #efefef;
+}
+
+.Review article{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 60px;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+    
+}
+
+.Review p{
+    padding: 50px 10px 10px 10px;
+}
+
+.Review img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+footer{
+    background-image: linear-gradient(#2d557d,#9610fd);
+    color: #fff;
+    display: flex;
+    margin: 1rem;
+    gap: 2rem 1rem;
+    height: 150px;
+}
+
+footer div{
+    flex: 1;
+}
+
+.foot-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.quick{
+    padding-top: 20px;
+}
+
+.quick p{
+    padding-top: 9px;
+}
+
+.quick h4{
+    font-size: 24px;
+}
